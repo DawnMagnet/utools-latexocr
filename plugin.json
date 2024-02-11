@@ -1,0 +1,16 @@
+{
+    "pluginName": "LatexOCR",
+    "description": "识别图片及截图中的数学公式，并导出为latex",
+    "logo": "logo.png",
+    "version": "0.0.1",
+    "preload": "preload.js",
+    "features": [
+        {
+            "code": "latexocr&copy",
+            "explain": "识别图片中的数学公式并转化为latex，直接复制到剪贴板",
+            "cmds": [
+                "latexocr&copy"
+            ]
+        }
+    ]
+}
