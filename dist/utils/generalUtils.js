@@ -1,1 +1,0 @@
-const fs=require("fs"),{encode}=require("fast-png"),saveBase64=(e,a)=>{const s=e.replace(/^data:image\/\w+;base64,/,""),o=new Buffer(s,"base64");fs.writeFileSync(a,o)},imageDataToBase64=e=>new Buffer(encode(e)).toString("base64");module.exports={saveBase64,imageDataToBase64};
